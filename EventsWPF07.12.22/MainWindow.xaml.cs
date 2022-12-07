@@ -33,7 +33,7 @@ namespace EventsWPF07._12._22
         private void Rectangle_MouseDown(object sender, MouseEventArgs e)
         {
             Status.Text += "\n Rectangle;";
-            sv.ScrollToEnd();
+            sv.ScrollToEnd();  
         }
     }
 }
